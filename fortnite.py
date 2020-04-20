@@ -505,15 +505,15 @@ async def event_friend_message(message):
 
 
     elif "!ready" in args[0].lower():
-        await client.user.party.me.set_ready(True)
+        await client.user.party.me.set_ready(true)
         await message.reply('Ready!')
 
     elif ("!unready" in args[0].lower()) or ("!sitin" in args[0].lower()):
-        await client.user.party.me.set_ready(False)
+        await client.user.party.me.set_ready(false)
         await message.reply('Unready!')
 
     elif "!sitout" in args[0].lower():
-        await client.user.party.me.set_ready(None)
+        await client.user.party.me.set_ready(none)
         await message.reply('Sitting Out!')
 
     elif "!bp" in args[0].lower():
