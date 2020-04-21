@@ -1,15 +1,15 @@
 {
     "email": "rugmjfortnitelobbybot@gmail.com",
     "password": "matthew7443",
-    "cid": "CID_342_Athena_Commando_M_StreetRacerMetallic",
+    "cid": "CID_022_Athena_Commando_F",
     "bid": "BID_001_BlueSquire",
     "eid": "EID_Wave",
-    "banner": "otherbanner24",
-    "banner_colour": "defaultcolor12",
-    "level": 1,
-    "bp_tier": 1,
+    "banner": "follow @rugmj on tiktok",
+    "banner_colour": "defaultcolor11",
+    "level": 999,
+    "bp_tier": -9999999,
     "status": "I was programmed by RUGMJ7443 follow @rugmj on tiktok !!",
     "platform": "WIN",
-    "debug": false,
+    "debug": true,
     "friendaccept": true
 }
