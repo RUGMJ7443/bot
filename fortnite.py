@@ -994,19 +994,7 @@ async def event_friend_message(message: fortnitepy.FriendMessage) -> None:
             await message.reply(f"Couldn't set gamemode to {args[1]}, as I'm not party leader.")
             print(crayons.red(f"[PartyBot] [{time()}] [ERROR] "
                               "Failed to set gamemode as I don't have the required permissions."))
-            elif "!spam" in args[0].lower():
-        await client.user.party.send(content)
-         await client.user.party.send(content)
-             await client.user.party.send(content)
-                 await client.user.party.send(content)
-                     await client.user.party.send(content)
-                         await client.user.party.send(content)
-                             await client.user.party.send(content)
-                                 await client.user.party.send(content)
-                                     await client.user.party.send(content)
-                                         await client.user.party.send(content)
-                                             await client.user.party.send(content)
-
+           
 
 if (data['email'] and data['password']) and (data['email'] != 'email@email.com' and data['password'] != 'password1'):
     try:
