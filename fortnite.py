@@ -996,11 +996,12 @@ async def event_friend_message(message: fortnitepy.FriendMessage) -> None:
                               "Failed to set gamemode as I don't have the required permissions."))
             
     elif "!test" in args[0].lower():
-        await client.user.party.send(content)
-        await client.user.party.send(content)
-        await client.user.party.send(content)
-        await client.user.party.send(content)
-        await client.user.party.send(content)
+
+        x = 0
+
+        while x <= 10 :
+            await client.user.party.send(content)
+            x = x+1
            
 
 if (data['email'] and data['password']) and (data['email'] != 'email@email.com' and data['password'] != 'password1'):
