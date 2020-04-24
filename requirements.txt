@@ -1,4 +1,4 @@
--e git://github.com/RUGMJ7443/rug_fortenitepy#egg=fortnitepy
+-e git://github.com/RUGMJ7443/rug_fortenitepy.git#egg=fortnitepy
 BenBotAsync
 crayons
 pypresence
